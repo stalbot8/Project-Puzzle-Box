@@ -14,7 +14,7 @@
 cLEDMatrix<MATRIX_WIDTH, MATRIX_HEIGHT, MATRIX_TYPE> leds;
 
 cLEDText ScrollingMsg;
-const unsigned char TxtDemo[] = { EFFECT_FRAME_RATE "\x02" EFFECT_SCROLL_LEFT "    WE'RE PREGNANT! LOVE, KATIE & SPENCER "};
+const unsigned char TxtDemo[] = { EFFECT_FRAME_RATE "\x02" EFFECT_SCROLL_LEFT "    WE'RE PREGNANT!   "};
 
 //for smoothing
 const int numReadings = 10;
